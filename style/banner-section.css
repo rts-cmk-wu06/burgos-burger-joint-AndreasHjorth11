@@ -1,0 +1,51 @@
+
+.banner{
+    display: flex;
+    height: 500px;
+  
+}
+
+.reklame__banner{
+    object-fit: cover;
+    position: relative;
+    width: 1100px;
+    height: 400px;
+    top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    transform: rotate(180deg)
+    
+    
+}
+
+.banner__text-1
+{
+    position: absolute;
+    font-size: 80px;
+    left: 15%;
+    bottom: -70px;
+    z-index: 12;
+    color: white;
+    font-weight: bold;
+}
+
+.banner__text-2
+{
+    position: absolute;
+    font-size: 40px;
+    left: 15%;
+    top: 110%;
+    z-index: 12;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.banner__text-3{
+    position: absolute;
+    font-size: 20px;
+    left: 15%;
+    top: 121%;
+    z-index: 12;
+    color: white;
+}

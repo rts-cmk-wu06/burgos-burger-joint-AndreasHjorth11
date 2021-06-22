@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/common.blocks/style/header.css">
+    <link rel="stylesheet" href="/common.blocks/style/nav.css">
+    <link rel="stylesheet" href="/common.blocks/style/banner-section.css">
+    <link rel="stylesheet" href="/common.blocks/style/gallery.css">
+    <link rel="stylesheet" href="/common.blocks/style/banner-section-2.css">
+    <link rel="stylesheet" href="/common.blocks/style/kontakt.css">
+    <link rel="stylesheet" href="/common.blocks/style/footer.css">
+    <title>Burgos</title>
+</head>
+<body>
+    
+    <header class="header">
+        <nav class="header__nav"></nav>
+        <img class="header__img" alt="Image" src="/common.blocks/images/hero01.jpg">
+        <img class="header__logo" alt="Logo" src="/common.blocks/images/burger_ikon.png">
+        <div class="logo__decoration"></div>
+        <nav class="header__nav">
+
+            <div class="header__decoration">
+                <h1 class="nav__heading">Vælg din Favorit Yummy</h1>
+                <button class="nav__button">Start</button>
+            </div>
+
+            <ul>
+                <li>
+                    <p class="burgos__heading">BURGOS</p>
+                </li>
+                <li>
+                    <p class="home__heading">HOME</p>
+                </li>
+                <li>
+                   <a href="#gallery" class="gallery__link"><p class="gallery__logo">GALLERI</p></a>
+                </li>
+                <li>
+                    <p class="anbefalede__heading">ANBEFALEDE</p>
+                </li>
+                <li>
+                    <p class="kontakt__heading">KONTAKT</p>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="banner">
+        <img class="reklame__banner" alt="Reklame" src="/common.blocks/images/reklame01.jpg">
+        <p class="banner__text-1">-20%</p>
+        <p class="banner__text-2">SOMMER-<br>TILBUD</p>
+        <p class="banner__text-3">Quisque nec libero ut sapien dictum commodo. Nam ac felis<br> id libero rutrum pharetra eu non lacus</p>
+    </section>
+
+    <main id="gallery">
+        <figure class="gallery-container"> <!--Vis store billede-->
+            <img id="large-image" src="/common.blocks/images/galleri05.jpg" alt="">
+        </figure> 
+        <figure class="grid-container"> <!--Vis små billder-->
+            <img class="thumbnail" src="./common.blocks/images/galleri05.jpg" alt="">
+            <img class="thumbnail" src="/common.blocks/images/galleri06.jpg" alt="">
+            <img class="thumbnail" src="/common.blocks/images/galleri04.jpg" alt="">
+        </figure>
+        <h2 class="gallery__heading">Galleri</h2>
+        <p class="gallery__text-1">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        <p class="gallery__text-2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+        <p class="gallery__text-3">Vores YUMMY Opskrift</p>
+    </main>
+
+    <section class="yummies">
+        <p class="yummies__heading">ANBEFALEDE YUMMIES</p>
+        <div class="yummies__img">
+            <img class="img-1" src="/common.blocks/images/favorit01.jpg">
+            <img class="img-1" src="/common.blocks/images/favorit02.jpg">
+            <img class="img-1" src="/common.blocks/images/favorit03.jpg">
+            <img class="img-1" src="/common.blocks/images/favorit04.jpg">
+        </div>
+      
+    </section>
+
+    <section class="valider">
+        <p class="valider__heading">Kontakt</p>
+        <form id="Formular01">
+            <div>
+               
+                <input type="text" name="navn" id="InputNavn" placeholder="Navn"> 
+                <input type="text" name="mail" id="InputMail" placeholder="Mail">
+                <input type="text" name="besked" id="InputBesked" placeholder="Besked">
+    
+                <p id="FejlBesked1"></p>
+                <p id="FejlBesked2"></p>
+                <p id="FejlBesked3"></p>
+            </div>
+    
+            <div>
+                <button type="submit" id="InputSend">Send</button>
+            </div>
+        </form>
+    </section>
+  
+    <footer class="footer">
+       <p class="footer__text">FØLG OS PÅ <br>INSTAGRAM</p>
+       <p class="footer__copyright">Yummy © Burgos burgers ApS – All rights reserved Copyrights 2021</p>
+    </footer>
+        
+</body>
+
+<script src="/common.blocks/javascript/gallery.js"></script>
+<script src="/common.blocks/javascript/kontakt.js"></script>
+</html>
